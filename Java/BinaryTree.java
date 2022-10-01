@@ -13,7 +13,7 @@ class Node {
         // your code here
     }
 
-    void printtree() {
+    void printTree() {
         // your code here
     }
 
@@ -29,7 +29,7 @@ public class BinaryTree {
         tree.insert(50);
         tree.insert(200);
         tree.insert(25);
-        tree.printtree();
+        tree.printTree();
 
     }
 }
