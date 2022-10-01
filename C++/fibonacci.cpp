@@ -3,15 +3,15 @@
 #include <iostream>
 
 using namespace std;
+int fib(int n)
+{
+    // your code goes here
+    // print the fibonacci series
+}
 
 int main()
 {
     fib(10);
-}
-
-int fib(int n)
-{
-    // your code goes here
 }
 
 // Output

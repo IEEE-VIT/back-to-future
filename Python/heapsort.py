@@ -7,6 +7,7 @@ def heapify(arr, n, i):
 
 def heap_sort(arr):
     # your code goes here
+    # print the sorted array
     pass
 
 

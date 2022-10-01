@@ -5,6 +5,7 @@
 void selectionSort(int arr[], int n)
 {
     // your code goes here
+    // print the sorted array
 }
 
 int main()
@@ -15,5 +16,4 @@ int main()
 }
 
 // Output
-
 // 20 21 22 70 76 96

@@ -24,14 +24,15 @@ def evaluate(tokens):
 # to postfix
 
 
-def infixToPostfix(infixexpr):
+def infix_to_postfix(infixexpr):
     # your code goes here
+    # return the postfix expression
     pass
 
 
 # Driver program to test above function
 if __name__ == "__main__":
-    print(infixToPostfix("a+b*(c^d-e)^(f+g*h)-i"))
+    print(infix_to_postfix("a+b*(c^d-e)^(f+g*h)-i"))
 
 
 # Output: abcd^e-fgh*+^*+i-

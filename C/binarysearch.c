@@ -2,16 +2,28 @@
 
 #include <stdio.h>
 
-int binarysearch(int *arr, int size, int x)
+int BinarySearch(int *arr, int size, int x)
 {
     // your code goes here
+    // return the index of the element if found else return -1
 }
 
 int main()
 {
-    int arr[6] = {20, 21, 22, 70, 76, 96};
-    int x = 22;
-    int index = binarysearch(arr, 6, x);
-    printf("%d is at index %d", x, index);
+    int arr[5] = {2, 3, 4, 10, 40};
+    int x = 10;
+    int index = BinarySearch(arr, 5, x);
+    if (index == -1)
+    {
+        printf("Element not found");
+    }
+    else
+    {
+        printf("Element found at index %d", index);
+    }
     return 0;
 }
+
+// Output
+
+// Element found at index 3

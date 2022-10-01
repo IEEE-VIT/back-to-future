@@ -1,6 +1,6 @@
 // Binary Search Algorithm in Java
 
-public class binarysearch {
+public class BinarySearch {
     // Array of integers
     static int[] arr = { 2, 3, 4, 10, 40 };
     // Element to be searched

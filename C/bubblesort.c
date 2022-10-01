@@ -5,6 +5,7 @@
 void bubbleSort(int arr[], int n)
 {
     // your code goes here
+    // print the sorted array
 }
 
 int main()

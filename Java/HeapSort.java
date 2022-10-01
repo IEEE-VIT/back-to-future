@@ -1,17 +1,17 @@
-// Selection Sort Algorithm in Java 
+// Heap Sort Algorithm in Java
 
-public class selectionsort {
+public class HeapSort {
     // Array of integers
     static int[] arr = { 76, 22, 21, 96, 70, 20 };
 
-    // Selection Sort
+    // Heap Sort
     public static void main(String[] args) {
-        // Selection Sort
-        selectionSort(arr);
+        // Heap Sort
+        heapSort(arr);
     }
 
-    static void selectionSort(int[] arr) {
-        // Selection Sort
+    static void heapSort(int[] arr) {
+        // Heap Sort
         // your code here
 
     }

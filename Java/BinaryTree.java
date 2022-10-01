@@ -19,7 +19,7 @@ class Node {
 
 }
 
-public class binarytree {
+public class BinaryTree {
 
     public static void main(String[] args) {
         // Binary Tree

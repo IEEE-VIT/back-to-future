@@ -4,15 +4,16 @@
 
 using namespace std;
 
-void selectionSort(int *arr, int size)
+void SelectionSort(int *arr, int size)
 {
     // your code goes here
+    // print the sorted array
 }
 
 int main()
 {
     int arr[6] = {76, 22, 21, 96, 70, 20};
-    selectionSort(arr, 6);
+    SelectionSort(arr, 6);
     return 0;
 }
 

@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-int linearsearch(int *arr, int size, int x)
+int LinearSearch(int *arr, int size, int x)
 {
     for (int i = 0; i < size; i++)
     {
@@ -19,7 +19,7 @@ int main()
 {
     int arr[5] = {2, 3, 4, 10, 40};
     int x = 10;
-    int z = linearsearch(arr, 5, x);
+    int z = LinearSearch(arr, 5, x);
     if (z == -1)
     {
         cout << "Element is not present in array";

@@ -1,17 +1,17 @@
-// Bubble sort algorithm in Java 
+// Selection Sort Algorithm in Java 
 
-public class bubblesort {
+public class SelectionSort {
     // Array of integers
     static int[] arr = { 76, 22, 21, 96, 70, 20 };
 
-    // Bubble Sort
+    // Selection Sort
     public static void main(String[] args) {
-        // Bubble Sort
-        bubbleSort(arr);
+        // Selection Sort
+        selectionSort(arr);
     }
 
-    static void bubbleSort(int[] arr) {
-        // Bubble Sort
+    static void selectionSort(int[] arr) {
+        // Selection Sort
         // your code here
 
     }

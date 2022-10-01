@@ -7,6 +7,7 @@ fn main() {
 
 fn fibonacci(n: i32) {
     // your code goes here
+    // print the sequence
 }
 
 // Output:

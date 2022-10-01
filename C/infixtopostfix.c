@@ -2,14 +2,15 @@
 
 #include <stdio.h>
 
-void infixToPostfix(char *infix)
+void InfixToPostfix(char *infix)
 {
     // your code goes here
+    // print the postfix expression
 }
 int main()
 {
     char expression[100] = "a+b*(c^d-e)^(f+g*h)-i";
-    infixToPostfix(expression);
+    InfixToPostfix(expression);
     return 0;
 }
 

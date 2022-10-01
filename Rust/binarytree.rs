@@ -26,7 +26,7 @@ impl Node {
     fn insert(&self, value: i32) -> Node {
         // your code goes here
     }
-    fn printtree(&self) {
+    fn print_tree(&self) {
         // your code goes here
     }
 }

@@ -1,6 +1,6 @@
 // Check if the number is prime or not using java
 
-public class checkprime {
+public class CheckPrime {
     // Number to be checked
     static int num = 73;
 

@@ -4,15 +4,16 @@
 
 using namespace std;
 
+string InfixToPostfix(string expression)
+{
+    // your code goes here
+    // return the postfix expression
+}
+
 int main()
 {
     string expression = "a+b*(c^d-e)^(f+g*h)-i";
-    cout << infixToPostfix(expression) << endl;
-}
-
-string infixToPostfix(string expression)
-{
-    // your code goes here
+    cout << InfixToPostfix(expression) << endl;
 }
 
 // Output

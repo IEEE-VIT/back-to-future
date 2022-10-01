@@ -9,7 +9,7 @@ struct node
     struct node *right;
 };
 
-struct node *newNode(int data)
+struct node *NewNode(int data)
 {
     // your code goes here
 }
@@ -19,17 +19,17 @@ void PrintTree(struct node *root)
     // your code goes here
 }
 
-void insert(struct node *root, int data)
+void Insert(struct node *root, int data)
 {
     // your code goes here
 }
 
 int main()
 {
-    struct node *root = newNode(100);
-    insert(root, 50);
-    insert(root, 200);
-    insert(root, 25);
+    struct node *root = NewNode(100);
+    Insert(root, 50);
+    Insert(root, 200);
+    Insert(root, 25);
 
     PrintTree(root);
     return 0;

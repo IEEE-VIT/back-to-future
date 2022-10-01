@@ -2,20 +2,21 @@
 
 #include <stdio.h>
 
-void heapify(int *arr, int size, int i)
+void Heapify(int *arr, int size, int i)
 {
     // your code goes here
 }
 
-void heapSort(int *arr, int size)
+void HeapSort(int *arr, int size)
 {
     // your code goes here
+    // print the sorted array
 }
 
 int main()
 {
     int arr[6] = {76, 22, 21, 96, 70, 20};
-    heapSort(arr, 6);
+    HeapSort(arr, 6);
     return 0;
 }
 

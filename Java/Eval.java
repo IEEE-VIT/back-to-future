@@ -1,6 +1,6 @@
 // Eval function for Java
 
-public class eval {
+public class Eval {
 
     public static void main(String[] args) {
         // Eval function

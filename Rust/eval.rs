@@ -3,7 +3,7 @@
 fn main() {
     let expression = "10 + 20 * 30";
     let result = eval(expression);
-    println!("{}"result);
+    println!("{}", result);
 }
 
 fn eval(expression: &str) -> i32 {

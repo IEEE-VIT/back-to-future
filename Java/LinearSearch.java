@@ -1,6 +1,6 @@
 // Linear Search in Java
 
-public class linearsearch {
+public class LinearSearch {
     public static void main(String[] args) {
         // Array of integers
         int[] arr = { 2, 3, 4, 10, 40 };

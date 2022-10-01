@@ -1,6 +1,6 @@
 // Fibonacci sequence in Java
 
-public class fibonacci {
+public class Fibonacci {
 
     public static void main(String[] args) {
         // Fibonacci sequence

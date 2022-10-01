@@ -1,12 +1,8 @@
 // Infix to Postfix Conversion using Stack in Java
 
-import java.util.Stack;
-
-public class infixtopostfix {
-    // Infix expressio
+public class InfixToPostfix {
+    // Infix expression
     static String exp = "a+b*(c^d-e)^(f+g*h)-i";
-    // Stack
-    static Stack<Character> stack = new Stack<Character>();
 
     public static void main(String[] args) {
         // Infix to Postfix Conversion using Stack

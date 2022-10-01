@@ -5,11 +5,12 @@ use std::io::prelude::*;
 
 fn main() {
     let mut expression = "a+b*(c^d-e)^(f+g*h)-i".to_string();
-    infixtopostfix(expression);
+    println!("{}", expression);
 }
 
-fn infixtopostfix(expression: String) {
+fn infix_to_postfix(expression: String) -> String {
     // your code goes here
+    // return the postfix expression
 }
 
 // Output:
