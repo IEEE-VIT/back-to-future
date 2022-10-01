@@ -5,5 +5,7 @@ def checkPrime(n):
     pass
 
 
-n = int(input("Enter a number: "))
-checkPrime(n)
+checkPrime(73)
+
+# Output:
+# 73 is a prime number
