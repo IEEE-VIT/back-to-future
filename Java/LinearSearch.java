@@ -7,23 +7,23 @@ public class LinearSearch {
         // Element to be searched
         int x = 10;
         // Linear Search
-        linearSearch(arr, x);
+        System.out.println(linearSearch(arr, x));
 
     }
 
-    static void linearSearch(int[] arr, int x) {
+    static int linearSearch(int[] arr, int x) {
         // Linear Search
         int n = arr.length;
         for (int i = 0; i < n; i++) {
             if (arr[i] == x) {
-                System.out.println("Element found at index " + i);
-                return;
+                return i;
             }
 
         }
+        return -1;
 
     }
 }
 
 // Output:
-// Element found at index 3
+// 3

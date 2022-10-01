@@ -7,10 +7,6 @@ def check_prime(n):
     pass
 
 
-if check_prime(73):
-    print("73 is a prime number")
-else:
-    print("73 is a composite number")
-
+print(check_prime(73))
 # Output:
-# 73 is a prime number
+# True

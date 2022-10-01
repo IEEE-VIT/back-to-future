@@ -2,12 +2,7 @@
 
 fn main() {
     let num = 73;
-    check_prime(num);
-    if check_prime(num) {
-        println!("{} is a prime number", num);
-    } else {
-        println!("{} is not a prime number", num);
-    }
+    println!("{}", check_prime(num));
 }
 
 fn check_prime(num: i32) -> bool {
@@ -16,4 +11,4 @@ fn check_prime(num: i32) -> bool {
 }
 
 // Output:
-// 73 is a prime number
+// true

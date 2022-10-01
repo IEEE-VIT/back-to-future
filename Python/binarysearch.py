@@ -12,10 +12,8 @@ arr = [2, 3, 4, 10, 40]
 x = 10
 result = binary_search(arr, x)
 
-if result == -1:
-    print("Element is not present in array")
-else:
-    print("Element is present at index", result)
+
+print(result)
 
 # Output:
-# Element found at index 3
+# 3

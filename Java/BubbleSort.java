@@ -13,10 +13,11 @@ public class BubbleSort {
     static void bubbleSort(int[] arr) {
         // Bubble Sort
         // your code here
+        // print the sorted array
 
     }
 
 }
 
 // Output:
-// Sorted Array: [20, 21, 22, 70, 76, 96]
+// [20, 21, 22, 70, 76, 96]

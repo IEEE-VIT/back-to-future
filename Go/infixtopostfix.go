@@ -18,5 +18,4 @@ func infixToPostfix(infix string) string {
 }
 
 // Output:
-// Infix Expression:  a+b*(c^d-e)^(f+g*h)-i
-// Postfix Expression:  abcd^e-fgh*+^*+i-
+// abcd^e-fgh*+^*+i-

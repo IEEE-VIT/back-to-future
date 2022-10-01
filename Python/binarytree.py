@@ -9,7 +9,7 @@ class BinaryTree:
         pass
     # print tree
 
-    def PrintTree(self):
+    def print_tree(self):
         pass
     pass
 
@@ -20,4 +20,4 @@ tree.insert(200)
 tree.insert(25)
 
 
-print(tree.PrintTree())
+print(tree.print_tree())

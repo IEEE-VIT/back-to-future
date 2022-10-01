@@ -13,10 +13,11 @@ public class SelectionSort {
     static void selectionSort(int[] arr) {
         // Selection Sort
         // your code here
+        // print the array
 
     }
 
 }
 
 // Output:
-// Sorted Array: [20, 21, 22, 70, 76, 96]
+// [20, 21, 22, 70, 76, 96]

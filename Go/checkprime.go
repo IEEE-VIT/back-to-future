@@ -7,11 +7,7 @@ import "fmt"
 func main() {
 	var num int = 73
 
-	if isPrime(num) {
-		fmt.Println(num, "is a prime number")
-	} else {
-		fmt.Println(num, "is not a prime number")
-	}
+	fmt.Println(isPrime(num))
 }
 
 func isPrime(num int) bool {
@@ -20,5 +16,4 @@ func isPrime(num int) bool {
 }
 
 // Output:
-// Enter a number: 73
-// 73 is a prime number
+// true

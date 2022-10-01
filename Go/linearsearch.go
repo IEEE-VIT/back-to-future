@@ -8,19 +8,20 @@ func main() {
 
 	var arr = []int{2, 3, 4, 10, 40}
 	var x = 10
-	linearSearch(arr, x)
+	fmt.Println(linearSearch(arr, x))
 
 }
 
-func linearSearch(arr []int, x int) {
+func linearSearch(arr []int, x int) int {
 
 	for i := 0; i < len(arr); i++ {
 		if arr[i] == x {
-			fmt.Println("Element found at index: ", i)
+			return i
 		}
 
 	}
+	return -1
 }
 
 // Output:
-// Element found at index:  3
+// 3

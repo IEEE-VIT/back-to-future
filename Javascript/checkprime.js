@@ -2,9 +2,10 @@
 
 function isPrime(num) {
     // your code here
+    // return true or false
 }
 
 console.log(isPrime(73)); 
 
 // Output:
-// 73 is a prime number
+// true

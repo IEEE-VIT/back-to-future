@@ -13,14 +13,7 @@ int main()
 {
     int n = 73;
     bool result = IsPrime(n);
-    if (result)
-    {
-        cout << n << " is a prime number";
-    }
-    else
-    {
-        cout << n << " is not a prime number";
-    }
+    cout << result;
     return 0;
 }
 

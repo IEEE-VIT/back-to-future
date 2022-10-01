@@ -6,16 +6,11 @@ function binarySearch(arr, x) {
 
 var arr = [2, 3, 4, 10, 40];
 
-var x = 10;
+const x = 10;
 
 var result = binarySearch(arr, x);
 
-if (result == -1) {
-    console.log("Element is not present in array");
-}
-else {
-    console.log("Element is present at index " + result);
-}
+console.log(result);
 
 // Output:
-// Element is present at index 3
+// 3

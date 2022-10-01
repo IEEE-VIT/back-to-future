@@ -25,17 +25,11 @@ int main()
                   40};
     int x = 10;
     int result = LinearSearch(arr, 5, x);
-    if (result == -1)
-    {
-        printf("Element is not present in array");
-    }
-    else
-    {
-        printf("Element is present at index %d", result);
-    }
+    printf("%d", result);
+
     return 0;
 }
 
 // Output
 
-// Element is present at index 3
+// 3

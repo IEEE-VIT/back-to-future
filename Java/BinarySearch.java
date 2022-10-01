@@ -8,16 +8,19 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         // Binary Search
-        binarySearch(arr, x);
+        System.out.println(binarySearch(arr, x));
     }
 
-    static void binarySearch(int[] arr, int x) {
+    static int binarySearch(int[] arr, int x) {
+
         // Binary Search
         // your code here
+        return -1;// overwrite it according to logic, return index of array or return -1 if not
+                  // found
 
     }
 
 }
 
 // Output:
-// Element found at index 3
+// 3

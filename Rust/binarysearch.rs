@@ -3,16 +3,13 @@
 fn main() {
     let arr = [2, 3, 4, 10, 40];
     let x = 10;
-    if binary_search(arr, x) {
-        println!("Element found at index {}", x);
-    } else {
-        println!("Element not found");
-    }
+    println!("{}", binary_search(arr, x))
 }
 
-fn binary_search(arr: [i32; 5], x: i32) -> bool {
+fn binary_search(arr: [i32; 5], x: i32) -> i32 {
     // your code goes here
+    // return -1 if element not found else return index
 }
 
 // Output:
-// Element found at index 3
+// 3

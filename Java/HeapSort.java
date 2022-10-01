@@ -19,4 +19,4 @@ public class HeapSort {
 }
 
 // Output:
-// Sorted Array: [20, 21, 22, 70, 76, 96]
+// [20, 21, 22, 70, 76, 96]

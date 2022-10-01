@@ -1,23 +1,18 @@
 // Check if a number is prime or not in C.
 
 #include <stdio.h>
-#include <stdbool.h>
 
-bool IsPrime(int n)
+int IsPrime(int n)
 {
     // your code goes here
-    // return true if n is prime else return false
+    // return 1 if n is prime else return 0
 }
 int main()
 {
     int n = 73;
-    bool result = IsPrime(n);
-    if (result)
-        printf("%d is a prime number", n);
-    else
-        printf("%d is not a prime number", n);
-    return 0;
+    int result = IsPrime(n);
+    printf("%d", result);
 }
 
 // Output
-// 73 is a prime number
+// 73
