@@ -1,14 +1,12 @@
 # Back to the Future
 
-### Back to the Future is a basic beginner friendly repository to help users learn open source and contribute to earn those goodies
+**Back to the Future is a basic beginner friendly repository to help users learn open source and contribute to earn those goodies**
 
 ![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
 
 ## Hacktoberfest
 
 What is Hacktoberfest 2022? [HacktoberFest]("https://hacktoberfest.com") 2022 is the 9th edition of Hacktoberfest hosted by DigitalOcean. It is an open source festival celebrated during October every year, encouraging people worldwide to actively participate and contribute to participating open source projects hosted across GitHub and GitLab.
-
-### This repository aims to help code beginners with their first successfull pull request and open source contribution.
 
 ## How to start?
 
@@ -35,7 +33,7 @@ Language
 
 ```
 
-##### Feel Free to add more to the list!
+**Feel Free to add more to the list!**
 
 ## Idea
 
