@@ -1,6 +1,6 @@
 # Back to the Future
 
-**Back to the Future is a basic beginner friendly repository to help users learn open source and contribute to earn those goodies**
+**Back to the Future is a basic beginner friendly repository to help users learn and contribute towards open source and Kickstart your journey**
 
 ![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
 
