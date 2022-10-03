@@ -2,7 +2,9 @@
 
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 
@@ -13,9 +15,25 @@ func main() {
 }
 
 func binarySearch(arr []int, x int) int {
-	// your code here
+	low := 0
+	high := len(arr) - 1 
+	for low < high{
+		median := (low + high) / 2
+
+		if arr[median] < x{
+			low = median + 1
+		}else{
+			high = median - 1
+		}
+	if arr[low] == x{
+		return low
+	}
+	}
+	
 	return -1 // return index or -1 if element is not found
 }
+	
+
 
 // Output:
 
