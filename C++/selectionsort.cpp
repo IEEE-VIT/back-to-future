@@ -1,19 +1,28 @@
 // Selection Sort Algorithm in C++
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 void SelectionSort(int *arr, int size)
 {
-    // your code goes here
-    // print the sorted array
+    int n=size;
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<n;j++){
+            if(arr[i]>arr[j]){
+                swap(arr[i],arr[j]);
+            }
+        }
+    }
 }
 
 int main()
 {
     int arr[6] = {76, 22, 21, 96, 70, 20};
     SelectionSort(arr, 6);
+    for(int i=0;i<7;i++){
+        cout<<arr[i]<<" ";
+    }
     return 0;
 }
 
