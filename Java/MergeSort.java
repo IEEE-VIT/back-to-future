@@ -8,12 +8,7 @@ public class MergeSort {
 		// Array of integers
 		int[] arr = { 11, 30, 24, 7, 31, 16, 39, 41 };
 	    
-	    System.out.println("Before sorting the array: ");
-	    System.out.println(Arrays.toString(arr));
-	    
 	    mergeSort(arr, arr.length);
-	    
-	    System.out.println("After sorting the array: ");
 	    System.out.println(Arrays.toString(arr));
 	}
 	
