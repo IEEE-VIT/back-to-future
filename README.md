@@ -39,6 +39,7 @@ Language
 ├─ infixtopostfix.
 ├─ linearsearch.
 └─ selectionsort.
+└─ mergesort.
 
 ```
 
