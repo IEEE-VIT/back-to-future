@@ -2,11 +2,6 @@
 using namespace std;
 
 int main() {
-
-#ifndef ONLINE_JUDGE
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
-#endif
 	// start code from here
 	//cout << "Hello";
 	
@@ -21,10 +16,10 @@ int main() {
 		n = n / 10;
 	}
 	if (sum == temp) {
-		cout << temp << " Number is Armstrong Number";
+		cout << true;
 	}
 	else {
-		cout << "not a armstrong number ";
+		cout << false;
 	}
 
 
