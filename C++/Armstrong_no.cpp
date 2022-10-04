@@ -9,8 +9,10 @@ int main() {
 #endif
 	// start code from here
 	//cout << "Hello";
-	int n;
-	cin >> n;
+	
+	// int n = 135; // output : not a armstrong number 
+	int n = 371; // output : 371 Number is Armstrong Number
+	// cin >> n;
 	int temp = n;
 	int sum = 0;
 	while (n > 0) {
@@ -28,3 +30,9 @@ int main() {
 
 	return 0;
 }
+
+/*
+	// int n = 135; // output : not a armstrong number 
+	int n = 371; // output : 371 Number is Armstrong Number
+	
+*/
