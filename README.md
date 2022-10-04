@@ -38,7 +38,7 @@ Language
 ├─ helloworld.
 ├─ infixtopostfix.
 ├─ linearsearch.
-└─ selectionsort.
+├─ selectionsort.
 └─ mergesort.
 
 ```
