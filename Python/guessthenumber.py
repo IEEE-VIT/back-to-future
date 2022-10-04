@@ -11,9 +11,4 @@ print("True")  #If the number match
 
 #Output
 
-#3
-#False
-#4
-#False
-#2
-#True
+# True if the number is matched else False
