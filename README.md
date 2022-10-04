@@ -40,6 +40,8 @@ Language
 ├─ linearsearch.
 ├─ selectionsort.
 └─ mergesort.
+└─ Armstrong_no.
+
 
 ```
 
