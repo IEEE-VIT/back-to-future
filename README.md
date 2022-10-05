@@ -39,8 +39,8 @@ Language
 ├─ infixtopostfix.
 ├─ linearsearch.
 ├─ selectionsort.
-└─ mergesort.
-└─ Armstrong_no.
+├─ mergesort.
+└─ armstrong_no.
 
 
 ```
