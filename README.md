@@ -2,9 +2,9 @@
 
 **Back to the Future is a basic beginner friendly repository to help users learn and contribute towards open source and Kickstart your journey**
 
-![image](https://user-images.githubusercontent.com/70385488/192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6.png)
+![image](https://user-images.githubusercontent.com/61420072/193648957-de003383-8f44-4629-9c4a-b9a7cda015a3.png)
 
-## Hacktoberfest 2922 with IEEE-VIT
+## Hacktoberfest 2022 with IEEE-VIT
 
 What is Hacktoberfest 2022? [HacktoberFest]("https://hacktoberfest.com") 2022 is the 9th edition of Hacktoberfest hosted by DigitalOcean. It is an open source festival celebrated during October every year, encouraging people worldwide to actively participate and contribute to participating open source projects hosted across GitHub and GitLab.
 
@@ -38,7 +38,10 @@ Language
 ├─ helloworld.
 ├─ infixtopostfix.
 ├─ linearsearch.
-└─ selectionsort.
+├─ selectionsort.
+└─ mergesort.
+└─ Armstrong_no.
+
 
 ```
 

@@ -5,8 +5,20 @@
 using namespace std;
 bool IsPrime(int n)
 {
-    // your code goes here
-    // check if the number is prime or not and return true or false accordingly
+    bool flag=0;
+    for(int i=2;i<n;i++){
+        if(n%i==0){
+           
+            flag=1;
+            break;  
+
+        }
+    }
+    if(flag==0){
+       return true;
+    }else{
+        return false;
+    }
 }
 
 int main()
