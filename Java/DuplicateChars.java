@@ -1,51 +1,33 @@
-import java.util.Scanner;
-
-// Check if the given String has duplicate characters.
-
+// Check if the given String has duplicate characters, ignoring case.
 public class DuplicateChars {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) {		
+		String str1 = "duplicate";
+		String str2 = "character";
 		
-		// Our variables
-		String str = "";
-		char[] chars;		
-		boolean hasDuplicate = false;
+		System.out.println("'" + str1 + "' contains duplicate characters? " + checkDuplicateChars(str1));
+		System.out.println("'" + str2 + "' contains duplicate characters? " + checkDuplicateChars(str2));
+	}
+	
+	static boolean checkDuplicateChars(String str) {
+		// Trim leading and trailing spaces
+		str = str.trim();
 		
-		// Create a Scanner object
-		Scanner input = new Scanner(System.in);
-		
-		// Ask the user to enter a string
-		System.out.println("Enter a string to check: ");
-		str = input.nextLine();
+		// Convert all the characters in the String to lower case
+		str = str.toLowerCase();		
 		
 		// Convert the given string to a char array
-		chars = str.toCharArray();
+		char[] chars = str.toCharArray();
 		
 		// Check each characters present in the string
 		for (int i = 0; i < chars.length; i++) {			
-			hasDuplicate = false;
-			
 			for (int j = i + 1; j < chars.length; j++) {
-				if (chars[i] == chars[j]) {
-					// Found a duplicate, break out from the loop
-					hasDuplicate = true;
-					break;
+				if (chars[i] == chars[j]) {					
+					return true; // Found a duplicate character
 				}
-			}
-			
-			// If there was a duplicate in the loop then break out 
-			if (hasDuplicate) {				
-				break;
-			}
+			}			
 		}
-		
-		if (hasDuplicate) {
-			System.out.println("The string contains duplicate characters.");			
-		} else {
-			System.out.println("NO duplicate characters present in the string.");			
-		}		
-		
-		// Close the Scanner
-		input.close();
+			
+		return false; // No duplicate character found		
 	}
 }
