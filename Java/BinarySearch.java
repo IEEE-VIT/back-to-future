@@ -11,16 +11,28 @@ public class BinarySearch {
         System.out.println(binarySearch(arr, x));
     }
 
-    static int binarySearch(int[] arr, int x) {
+    static int binarySearch(int[] array, int x) {
+            int low=0,high= array.length-1;
+        // Repeat until the pointers low and high meet each other
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
 
-        // Binary Search
-        // your code here
-        return -1;// overwrite it according to logic, return index of array or return -1 if not
-                  // found
+            if (array[mid] == x)
+                return mid;
 
+            if (array[mid] < x)
+                low = mid + 1;
+
+            else
+                high = mid - 1;
+        }
+
+        return -1;
     }
+
+    
 
 }
 
-// Output:
+    // Output:
 // 3
