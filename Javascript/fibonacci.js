@@ -11,6 +11,7 @@ function fibonacci(n) {
     }
   
     return array;
+
 }
 
 console.log(fibonacci(10));
