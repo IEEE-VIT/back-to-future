@@ -1,8 +1,11 @@
 // Check if a number is prime or not using JavaScript
 
 function isPrime(num) {
-    // your code here
-    // return true or false
+    for(var i = 2 ; i<=num/2 ; i++){
+        if(num%i == 0)return false;
+    }
+
+    return true;
 }
 
 console.log(isPrime(73)); 

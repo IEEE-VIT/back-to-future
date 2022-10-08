@@ -1,14 +1,34 @@
-// Check Prime Number in Rust
 
-fn main() {
-    let num = 73;
-    println!("{}", check_prime(num));
+pub fn prime_check(num: usize) -> bool {
+    if (num > 1) & (num < 4) {
+        return true;
+    } else if (num < 2) || (num % 2 == 0) {
+        return false;
+    }
+
+    let stop: usize = (num as f64).sqrt() as usize + 1;
+    for i in (3..stop).step_by(2) {
+        if num % i == 0 {
+            return false;
+        }
+    }
+    true
 }
 
-fn check_prime(num: i32) -> bool {
-    // your code goes here
-    // return true if num is prime, else return false
-}
+#[cfg(test)]
+mod tests {
+    use super::*;
 
-// Output:
-// true
+    #[test]
+    fn basic() {
+        assert_eq!(prime_check(3), true);
+        assert_eq!(prime_check(7), true);
+        assert_eq!(prime_check(11), true);
+        assert_eq!(prime_check(2003), true);
+
+        assert_eq!(prime_check(4), false);
+        assert_eq!(prime_check(6), false);
+        assert_eq!(prime_check(21), false);
+        assert_eq!(prime_check(2004), false);
+    }
+}

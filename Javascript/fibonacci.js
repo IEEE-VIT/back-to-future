@@ -1,7 +1,7 @@
 // Fibonacci sequence generator in JavaScript 
 
 function fibonacci(n) {
-    // your code here
+
 }
 
 console.log(fibonacci(10));
