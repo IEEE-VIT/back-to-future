@@ -31,6 +31,7 @@ Language
 ├─ binarysearch.
 ├─ binarytree.
 ├─ bubblesort.
+├─ bucketsort.
 ├─ checkPrime.
 ├─ eval.
 ├─ fibonacci.
