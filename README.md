@@ -41,7 +41,8 @@ Language
 ├─ linkedlist.
 ├─ selectionsort.
 ├─ mergesort.
-└─ armstrong_no.
+├─ Armstrong_no.
+└─ duplicatechars.
 
 
 ```
