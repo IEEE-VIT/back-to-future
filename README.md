@@ -33,6 +33,7 @@ Language
 ├─ bubblesort.
 ├─ checkPrime.
 ├─ eval.
+├─ queue.
 ├─ fibonacci.
 ├─ heapsort.
 ├─ helloworld.
