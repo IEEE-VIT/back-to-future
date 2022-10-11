@@ -1,7 +1,6 @@
 // Selection Sort in C
 
 #include <stdio.h>
-#include <math.h>
 
 void selectionSort(int arr[], int n)
 {
