@@ -43,8 +43,8 @@ Language
 ├─ selectionsort.
 ├─ mergesort.
 ├─ Armstrong_no.
-└─ duplicatechars.
-
+├─ duplicatechars.
+└─ A*.
 
 ```
 
