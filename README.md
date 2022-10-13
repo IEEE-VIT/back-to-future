@@ -31,6 +31,7 @@ Language
 ├─ binarysearch.
 ├─ binarytree.
 ├─ bubblesort.
+├─ bucketsort.
 ├─ checkPrime.
 ├─ eval.
 ├─ fibonacci.
@@ -38,12 +39,12 @@ Language
 ├─ helloworld.
 ├─ infixtopostfix.
 ├─ linearsearch.
+├─ linkedlist.
 ├─ selectionsort.
 ├─ mergesort.
-└─ armstrong_no.
+├─ Armstrong_no.
+├─ duplicatechars.
 └─ A*.
-
-
 
 ```
 
