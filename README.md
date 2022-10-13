@@ -41,6 +41,13 @@ Language
 ├─ selectionsort.
 └─ mergesort.
 └─ Armstrong_no.
+└─ Reversing A Linked List
+└─ Reversing K Elements of A Linked List
+└─ DNF Sort
+└─ setBit, getBit and updateBit
+└─ quick sort
+
+
 
 
 ```
