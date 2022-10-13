@@ -33,13 +33,13 @@ Language
 ├─ bubblesort.
 ├─ checkPrime.
 ├─ eval.
-├─ queue.
 ├─ fibonacci.
 ├─ heapsort.
 ├─ helloworld.
 ├─ infixtopostfix.
 ├─ linearsearch.
 ├─ linkedlist.
+├─ linkedlist_queue.
 ├─ selectionsort.
 ├─ mergesort.
 └─ armstrong_no.
