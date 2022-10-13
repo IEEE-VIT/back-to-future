@@ -44,7 +44,11 @@ Language
 ├─ mergesort.
 ├─ Armstrong_no.
 ├─ duplicatechars.
+├─ BST Implementation
+├─ BST Searching
 └─ A*.
+
+
 
 ```
 
