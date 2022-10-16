@@ -1,7 +1,23 @@
 # python program to print fibonacci series
 
-def fibonacci(n):
     # your code goes here
+def fibonacci(n):
+    a, b = 0, 1
+    count = 0
+
+    if n<=0:
+        return
+    elif n==1:
+        print(a)
+        return
+    else:
+        while count<n:
+            print(a, end=' ')
+            s = a + b
+            a = b
+            b = s
+            count+=1
+        
     # print the fibonacci series
     pass
 
