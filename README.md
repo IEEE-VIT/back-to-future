@@ -40,6 +40,7 @@ Language
 ├─ infixtopostfix.
 ├─ linearsearch.
 ├─ linkedlist.
+├─ linkedlist_queue.
 ├─ selectionsort.
 ├─ mergesort.
 ├─ Armstrong_no.
