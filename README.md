@@ -47,6 +47,7 @@ Language
 ├─ duplicatechars.
 ├─ BST Implementation
 ├─ BST Searching
+├─ Segment Tree
 └─ A*.
 
 
