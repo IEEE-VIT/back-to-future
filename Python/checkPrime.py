@@ -1,10 +1,12 @@
 # check if a number is prime or composite
 
 def check_prime(n):
-    # enter your code here
-    # return True if n is prime else return False
-    return False  # change this line to return True or False based on the condition
-    pass
+    if n > 1:
+      for i in range(2, int(n/2)+1):
+        if (n % i) == 0:
+            return False
+    else:
+        return True
 
 
 print(check_prime(73))

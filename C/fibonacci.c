@@ -2,11 +2,22 @@
 
 #include <stdio.h>
 
+int getfib(int n) {
+    if(n == 0) {
+        return 0;
+    } else if(n == 1) {
+        return 1;
+    }
+    return getfib(n-1) + getfib(n-2);
+}
+
 void fib(int n)
 {
-    // your code goes here
-    // print the sequence
+    for(int i = 0; i < n; i++) {
+        printf("%d ", getfib(i));
+    }
 }
+
 int main()
 {
     int n = 10;
