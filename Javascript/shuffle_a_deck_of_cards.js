@@ -1,4 +1,4 @@
-// declare card elements
+// declaring  elements
 const types = ["Spades", "Diamonds", "Club", "Heart"];
 const cards = [
   "A",
@@ -27,7 +27,7 @@ for (let i = 0; i < types.length; i++) {
     }
 }
 
-// shuffle the cards
+// shuffling the cards
 for (let i = deck.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * i);
     let temp = deck[i];
@@ -37,7 +37,7 @@ for (let i = deck.length - 1; i > 0; i--) {
 
 console.log('The first five cards are:');
 
-// display 5 results
+// display firts 5 shuffled cards
 for (let i = 0; i < 5; i++) {
     console.log(`${deck[i].Value} of ${deck[i].types}`)
 }
