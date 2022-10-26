@@ -48,7 +48,9 @@ Language
 ├─ BST Implementation
 ├─ BST Searching
 ├─ Segment Tree
-└─ A*.
+├─ A*.
+└─shuffle_a_deck_of_cards.
+
 
 
 
