@@ -31,6 +31,7 @@ Language
 ├─ binarysearch.
 ├─ binarytree.
 ├─ bubblesort.
+├─ bucketsort.
 ├─ checkPrime.
 ├─ eval.
 ├─ fibonacci.
@@ -39,9 +40,15 @@ Language
 ├─ infixtopostfix.
 ├─ linearsearch.
 ├─ linkedlist.
+├─ linkedlist_queue.
 ├─ selectionsort.
 ├─ mergesort.
-├─armstrong_no.
+├─ Armstrong_no.
+├─ duplicatechars.
+├─ BST Implementation
+├─ BST Searching
+├─ Segment Tree
+├─ A*.
 └─shuffle_a_deck_of_cards.
 
 
