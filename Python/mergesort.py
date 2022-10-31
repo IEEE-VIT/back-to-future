@@ -37,23 +37,20 @@ def merge_arr(arr, left, mid, right):
 
 
 
-def MergeSort(arr, left, right):
+def merge_sort(arr, left, right):
 	if left < right:
 		m = left+(right-left)//2
 
-		MergeSort(arr, left, m)
-		MergeSort(arr, m+1, right)
+		merge_sort(arr, left, m)
+		merge_sort(arr, m+1, right)
 		merge_arr(arr, left, m, right)
 
 
 
-n = int(input("Enter the length of the array: "))
-arr=[]
-for i in range(n):
-    x=int(input("Enter element: "))
-    arr.append(x)
 
-MergeSort(arr, 0, n-1)
-print("\nSorted array is:")
-for i in range(n):
+arr=[7,9,4,3,16]
+
+merge_sort(arr, 0, len(arr)-1)
+
+for i in range(len(arr)):
 	print("%d" % arr[i],end=" ")
