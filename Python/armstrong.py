@@ -1,4 +1,4 @@
-n=int(input("Enter a number: "))
+n=153
 n1=n
 s=0
 while(n>0):
