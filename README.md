@@ -41,6 +41,7 @@ Language
 ├─ linearsearch.
 ├─ linkedlist.
 ├─ linkedlist_queue.
+├─ linkedlist_sort.
 ├─ second_largest_score.
 ├─ selectionsort.
 ├─ mergesort.
