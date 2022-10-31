@@ -1,13 +1,17 @@
-n=153
-n1=n
-s=0
-while(n>0):
-    d=n%10
-    s=s+(d**3)
-    n=n//10
+def armstrong(n):
+    s=0
+    n1=n
+    l=len(str(n))
+    while(n>0):
+        d=n%10
+        s=s+(d**l)
+        n=n//10
 
-if(s==n1):
-    print("It is an Armstrong number!")
-
-else:
-    print("It is not an Armstrong number.")
+    if(s==n1):
+        return True
+    else:
+        return False
+        
+        
+num=153
+print(armstrong(num))
