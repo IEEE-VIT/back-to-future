@@ -28,12 +28,18 @@ What is Hacktoberfest 2022? [HacktoberFest]("https://hacktoberfest.com") 2022 is
 
 ```
 Language
+├─ A*.
+├─ Armstrong_no.
 ├─ binarysearch.
 ├─ binarytree.
 ├─ bubblesort.
+├─ BST Implementation
+├─ BST Searching
 ├─ bucketsort.
 ├─ checkPrime.
+├─ duplicatechars.
 ├─ eval.
+├─ Expressiontree
 ├─ fibonacci.
 ├─ heapsort.
 ├─ helloworld.
@@ -42,17 +48,12 @@ Language
 ├─ linkedlist.
 ├─ linkedlist_queue.
 ├─ linkedlist_sort.
-├─ second_largest_score.
-├─ selectionsort.
 ├─ mergesort.
-├─ Armstrong_no.
-├─ duplicatechars.
-├─ BST Implementation
-├─ BST Searching
+├─ priorityQueue
 ├─ Segment Tree
-├─ A*.
+|─ second_largest_score.
+├─ selectionsort.
 └─shuffle_a_deck_of_cards.
-
 
 
 
