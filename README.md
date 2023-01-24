@@ -54,9 +54,6 @@ Language
 |─ second_largest_score.
 ├─ selectionsort.
 └─shuffle_a_deck_of_cards.
-
-
-
 ```
 
 **Feel Free to add more to the list!**
