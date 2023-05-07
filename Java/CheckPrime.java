@@ -2,7 +2,7 @@
 // Check if the number is prime or not using java
 public class CheckPrime {
   // Number to be checked
-  static int num = 73;
+  static long num = 73;
 
   public static void main(String[] args) {
     // Check if the number is prime or not
@@ -15,7 +15,7 @@ public class CheckPrime {
     // your code here
     if (num <= 1) return false;
 
-    for (int i = 2; i < num; i++)
+    for (long i = 2; i < num; i++)
       if (num % i == 0)
         return false;
 
