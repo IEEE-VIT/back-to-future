@@ -12,6 +12,7 @@ void rabin(string text,string pattern,int q){
         t=(t*d+text[i])%q;
     }
     for(int i=0;i<=n-m;i++){
+        
         if(p==t){
             for(j=0;j<m;j++){
                 if(text[i+j]!=pattern[j]){
